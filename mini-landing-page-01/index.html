@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Landing Page 01</title>
+    <!-- Google Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="css/meu.css">
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <div class="bg-top">
+        <header class="header" id="header">
+            <div class="nav-content container">
+                <div class="logo">
+                    <a href="https://samuelbatista04.github.io/mini-projetos-javascript//mini-landing-page-01/"><img
+                            src="./img/apple.svg" alt="Logo Apple"></a>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="menu" id="menu">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Lojas</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="btn-login" id="btn-login">
+                    <a href="#"><button>Área do Cliente</button></a>
+                </div>
+            </div>
+        </header>
+        <!-- Fim do cabeçalho -->
+        <!-- Banner Relógio -->
+        <main class="main">
+            <section class="banner">
+                <div class="container">
+                    <div class="banner_col-1">
+                        <img id="img-relogio" src="./img/rosa.png" alt="">
+                    </div>
+                    <div class="banner_col-2">
+                        <div class="cores">
+                            <div class="rosa" id="rosa"></div>
+                            <div class="preto" id="preto"></div>
+                            <div class="azul" id="azul"></div>
+                            <div class="branco" id="branco"></div>
+                        </div>
+                        <h1>Apple Watch Series 8</h1>
+                        <p>Um grande salto para sua saúde.
+                            Com uma boa dose de estilo.</p>
+                        <p>Novos estilos para novas aventuras.</p>
+
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Fim do Banner Relógio -->
+    <!-- Seção de vantagens -->
+    <section class="vantagens">
+        <div class="vantagens-container container">
+
+            <div class="col-vantagens">
+                <img class="vantagem-icone" src="./img/termometro-ico.png" alt="Sensor de Temperatura¹">
+                <h1 class="vantagem-titulos">
+                    Sensor de Temperatura¹
+                </h1>
+                <p class="vantagem-paragrafo">
+                    Um sensor inovador oferece informações sobre seu bem-estar geral e possibilita recursos
+                    avançados do app Acompanhamento de Ciclo².
+                </p>
+            </div>
+
+            <div class="col-vantagens">
+                <img class="vantagem-icone" src="./img/saude-ico.png" alt="Recursos avançados de saúde">
+                <h1 class="vantagem-titulos">
+                    Recursos avançados de saúde
+                </h1>
+                <p class="vantagem-paragrafo">
+                    Faça um ECG quando e onde quiser³. Veja seu nível de oxigênio no sangue com um sensor e
+                    app⁴.
+                </p>
+            </div>
+
+            <div class="col-vantagens">
+                <img class="vantagem-icone" src="./img/acidente-ico.png" alt="Detecção de Acidente">
+                <h1 class="vantagem-titulos">
+                    Detecção de Acidente
+                </h1>
+                <p class="vantagem-paragrafo">
+                    Identifica se você sofreu um acidente grave de carro, liga automaticamente para os serviços
+                    de resgate e alerta seus contatos de emergência.-
+                </p>
+            </div>
+
+            <div class="col-vantagens">
+                <img class="vantagem-icone" src="./img/exercicio-ico.png" alt="App Exercício aprimorado">
+                <h1 class="vantagem-titulos">
+                    App Exercício aprimorado
+                </h1>
+                <p class="vantagem-paragrafo">
+                    Melhore seu desempenho com novas métricas avançadas, treinos personalizados e o recurso
+                    Multiesporte.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Fim da Seção de vantagens -->
+    <!-- Rodapé -->
+    <footer class="footer">
+        <a href="#">/* Desenvolvido por Samuel Batista */</a>
+    </footer>
+    <!--Fim do Rodapé -->
+    <!-- Modal Login -->
+    <div class="modal-container" id="modal-container">
+        <div class="modal" id="modal">
+            <div class="modal-col_1">
+                <img src="./img/apple.svg" alt="Logo Apple">
+                <button>Cadastrar</button>
+            </div>
+            <div class="modal-col_2">
+                <h3>Login</h3>
+                <input type="email" name="email" id="email" placeholder="Insira seu e-mail">
+                <input type="password" name="senha" id="senha" placeholder="Insira sua senha">
+                <button type="submit">Entrar</button>
+                <div class="fechar" id="fechar">x</div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim do Modal Login -->
+
+    <!-- Modal Carrinho -->
+    <div></div>
+    <!-- Fim Modal Carrinho -->
+    <script src="./js/meu.js"></script>
+</body>
+
+</html>

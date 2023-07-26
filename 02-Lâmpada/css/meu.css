@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    background-image: radial-gradient(circle at 50% -3.03%, #fe8543 0, #ff7946 10%, #ff6c4a 20%, #ff5d4e 30%, #ff4d53 40%, #ff3858 50%, #fb1b5e 60%, #f70066 70%, #f2006e 80%, #eb0078 90%, #e30083 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 50px 10px;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.info {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    background: #f6f6f6;
+    height: 250px;
+    width: 250px;
+    max-width: 100%;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.info h1 {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info em {
+    font-size: 1.1em;
+    border-bottom: 1px solid #222;
+}
+
+.info button {
+    width: 80%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnLigar {
+    background: #eec337;
+    border: 2px solid #222;
+    font-weight: 600;
+}
+
+.btnDesligar {
+    background: #ccc;
+    border: 2px solid #222;
+    font-weight: 600;
+}
+
+.btnQuebrar {
+    background: #e76f51;
+    border: 2px solid #222;
+    font-weight: 600;
+}
+
+.btnRecomercar {
+    background: #2a9d8f;
+    border: 2px solid #222;
+    font-weight: 600;
+}
+
+.area_lampada {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    flex: 1 1 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 25px;
+}
+
+footer {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background: #f6f6f6;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+footer p {
+    color: #222;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+button {
+    width: 80px;
+}
+
+
+@media (max-width: 739px) {
+    body {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .area {
+        flex-wrap: wrap;
+    }
+
+    .info {
+        flex: 1 1 50%;
+        margin-bottom: 10px;
+    }
+
+    .area_lampada {
+        flex: 1 1 50%;
+    }
+}

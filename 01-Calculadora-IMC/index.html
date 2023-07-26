@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC - By Samuel Batista-</title>
+    <link rel="stylesheet" href="css/meu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="container">
+      <header class="col_1">
+        <a href="#"><img src="img/saude.png" alt="Logo Ícone" /></a>
+        <h1>Calculadora IMC</h1>
+      </header>
+      <section class="col_2">
+        <input
+          placeholder="Informe o seu nome"
+          type="text"
+          name="nome"
+          id="nome"
+        />
+        <input
+          placeholder="Informe a sua altura (Exemplo: 1,79)"
+          type="number"
+          name="altura"
+          id="altura"
+        />
+        <input
+          placeholder="Informe o seu peso"
+          type="number"
+          name="peso"
+          id="peso"
+        />
+        <div class="btn">
+          <input type="button" value="Calcular seu IMC" id="calcular" />
+          <input type="button" value="Resetar" id="load" />
+        </div>
+      </section>
+    </section>
+
+    <section class="area_resultado">
+      <h1>Resultado</h1>
+      <div class="resultado" id="resultado"></div>
+    </section>
+
+    <a href="http://instagram.com/oisamubatista">
+      <h1 class="creditos">/* Desenvolvido por Samuel Batista */</h1>
+    </a>
+    <script src="js/meu.js"></script>
+  </body>
+</html>
