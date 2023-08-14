@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/ico.png" type="image/x-icon">
+    <!-- Importa o arquivo CSS para estilos -->
+    <link rel="stylesheet" href="assets/css/acesso.css">
+    <!-- Importa o arquivo JavaScript para interatividade -->
+    <script src="assets/js/script.js" defer></script>
+    <title>Indica Sol</title>
+</head>
+<body>
+    <main class="area-access">
+        <!-- Coluna esquerda da área de acesso -->
+        <div class="area-access-col1">
+            <div class="logo">
+                <img src="assets/img/logo-bco.png" alt="logo indica sol">
+            </div>
+            <div class="text-hello">
+                <h1>Olá, seja<br> bem-vindo.</h1>
+                <p>Na <i>Indica Sol</i> você encontra uma oportunidade única de gerar renda extra ao indicar pessoas, transformando recomendações em recompensas!</p>
+            </div>
+            <img src="assets/img/Mulher_Sorrindo_Mexendo_no_Celula.png" alt="Correndo atrás de dinheiro">
+        </div>
+        <!-- Coluna direita da área de acesso -->
+        <div class="area-access-col2">
+            <!-- Botões para alternar entre Entrar e Registrar -->
+            <div class="btn-access js-btn-acesso" id="btn-access">
+                <button>Entrar</button>
+                <button>Registrar</button>
+            </div>
+            <!-- Formulário de login -->
+            <div class="area-sing-in js-tab">
+                <form action="">
+                    <div class="form-group ">
+                        <label for="email">Seu e-mail de acesso</label>
+                        <input type="email" id="email-sing-in" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password-sing-in" name="password">
+                    </div>
+                    <div class="btn-login">
+                        <button type="submit">Entrar</button>
+                        <button>Entre com o Google</button>
+                    </div>
+                </form>
+                <div class="js-btn-acesso">
+                    <button class="btn-esqueci-senha">Esqueci a senha</button>
+                </div>
+                
+            </div>
+            
+            <!-- Formulário de registro -->
+            <div class="area-sing-up js-tab">
+                <form action="">
+                    <div class="form-group">
+                        <label for="cadastro-nome">Nome Completo</label>
+                        <input type="text" id="cadastro-nome" name="cadastro-nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Seu e-mail de cadastro</label>
+                        <input type="email" id="email-sing-up" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Seu telefone</label>
+                        <input type="tel" id="tel" name="tel">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Confirme sua senha</label>
+                        <input type="password" id="password-sing-up" name="password">
+                    </div>
+                    <div class="btn-cadastro">
+                        <button type="submit">Enviar cadastro</button>
+                        <button>Cadastre-se com o Google</button>
+                    </div>
+                </form>
+            </div>
+            <!-- Formulário de recuperação de senha -->
+            <div class="recuperar-senha js-tab">
+                <form action="">
+                    <div class="form-group">
+                        <label for="email">Seu e-mail de acesso</label>
+                        <input type="email" id="email-recuperar-senha" name="email">
+                    </div>
+                    <div class="btn-recuperar-senha">
+                        <button type="submit">Recuperar senha</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; Samuel Batista</p>
+    </footer>
+</body>
+</html>
