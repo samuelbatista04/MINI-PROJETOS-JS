@@ -3,277 +3,277 @@
 
 /* Definições gerais para elementos da página */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: "Inter", Arial, sans-serif;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
+  list-style: none;
 }
 
 /* Imagens responsivas */
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Estilo global do corpo da página */
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100%;
-    padding: 10px;
-    background-color: #032f40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  padding: 10px;
+  background-color: #032f40;
 }
 
 footer p {
-    color: #ffffff;
-    font-style: italic;
-    margin: 10px;
+  color: #ffffff;
+  font-style: italic;
+  margin: 10px;
 }
 
 /* Estilos para a logo */
 .logo {
-    width: 150px;
-    height: 30px;
-    margin-bottom: 20px;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 20px;
 }
 
 /* Área de acesso principal */
 .area-access {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-    width: 1000px;
-    height: 600px;
-    padding: 10px;
-    border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 1000px;
+  height: 600px;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 /* Coluna esquerda da área de acesso */
 .area-access-col1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    background-color: #f29f05;
-    width: 300px;
-    max-width: 100%;
-    height: 100%;
-    border-radius: 25px 0 0 25px;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #f29f05;
+  width: 300px;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  padding: 20px;
 }
 
 /* Texto de boas-vindas na coluna esquerda */
 .text-hello h1 {
-    font-weight: 200;
-    letter-spacing: 2px;
-    color: #ffffff;
-    margin-bottom: 10px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .text-hello p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .text-hello i {
-    color: #021f2b;
-    font-weight: 600;
+  color: #021f2b;
+  font-weight: 600;
 }
 
 /* Imagem na coluna esquerda */
 .area-access-col1 img {
-    margin-bottom: -32px;
+  margin-bottom: -32px;
 }
 
 /* Coluna direita da área de acesso */
 .area-access-col2 {
-    width: 600px;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    background-color: #ffffff;
+  width: 600px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background-color: #ffffff;
 }
 
 /* Estilos para os botões de acesso */
 .btn-access button {
-    background-color: transparent;
-    border: transparent;
-    padding: 10px;
-    margin: 0 10px;
-    width: 80px;
-    height: 30px;
-    cursor: pointer;
-    transition: border-color 0.9s ease;
+  background-color: transparent;
+  border: transparent;
+  padding: 10px;
+  margin: 0 10px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  transition: border-color 0.9s ease;
 }
 
 .btn-access button:hover {
-    border-bottom: 1px solid #021f2b;
+  border-bottom: 1px solid #021f2b;
 }
 
 /* Estilos para as áreas de login e registro */
 .area-sing-in,
 .recuperar-senha,
 .area-sing-up {
-    display: none;
+  display: none;
 }
 
 /* Estilos para os botões dentro das áreas */
 .btn-login,
 .btn-recuperar-senha,
 .btn-cadastro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Estilos para os botões de login e cadastro */
 .btn-login button,
 .btn-recuperar-senha button,
 .btn-cadastro button {
-    background-color: #021f2b;
-    color: #ffffff;
-    height: 50px;
-    width: 50%;
-    margin: 10px;
-    padding: 10px;
-    gap: 20px;
-    border: 1px solid #021f2b;
-    border-radius: 15px;
-    cursor: pointer;
+  background-color: #021f2b;
+  color: #ffffff;
+  height: 50px;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  gap: 20px;
+  border: 1px solid #021f2b;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .btn-login button:hover,
 .btn-cadastro button:hover {
-    background-color: #052a3a;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #052a3a;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn-esqueci-senha {
-    background-color: transparent;
-    border: transparent;
-    padding: 10px;
-    margin: 0 10px;
-    width: 90%;
-    height: 30px;
-    cursor: pointer;
-    transition: border-color 0.9s ease;
+  background-color: transparent;
+  border: transparent;
+  padding: 10px;
+  margin: 0 10px;
+  width: 90%;
+  height: 30px;
+  cursor: pointer;
+  transition: border-color 0.9s ease;
 }
 
 .btn-esqueci-senha:hover {
-    border-bottom: 1px solid #021f2b;
+  border-bottom: 1px solid #021f2b;
 }
 
 /* Estilos para os grupos de formulários */
 .form-group {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    max-width: 100%;
-    padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  max-width: 100%;
+  padding: 5px 10px;
 }
 
 .form-group label {
-    color: #021f2b;
-    font-size: 0.8rem;
-    margin: 0px 0px 5px 10px;
+  color: #021f2b;
+  font-size: 0.8rem;
+  margin: 0px 0px 5px 10px;
 }
 
 .form-group input {
-    height: 35px;
-    width: 100%;
-    font-size: 0.8rem;
-    border: 1px solid #b6b9bb;
-    border-radius: 15px;
-    padding: 0px 10px;
-    margin: 0px 0px 5px 0px;
-    background-color: #f3f3f3;
-    color: #2d3142;
-    cursor: pointer;
-    box-shadow: rgba(188, 188, 192, 0.2) 0px 7px 29px 0px;
-    transition: background-color 0.3s, color 0.2s;
+  height: 35px;
+  width: 100%;
+  font-size: 0.8rem;
+  border: 1px solid #b6b9bb;
+  border-radius: 15px;
+  padding: 0px 10px;
+  margin: 0px 0px 5px 0px;
+  background-color: #f3f3f3;
+  color: #2d3142;
+  cursor: pointer;
+  box-shadow: rgba(188, 188, 192, 0.2) 0px 7px 29px 0px;
+  transition: background-color 0.3s, color 0.2s;
 }
 
 .form-group input:focus-visible {
-    outline: 1px solid rgb(255, 122, 13);
+  outline: 1px solid rgb(255, 122, 13);
 }
 
 .form-group input:hover {
-    background-color: #f3f3f3;
-    border: 1px solid rgb(255, 122, 13);
+  background-color: #f3f3f3;
+  border: 1px solid rgb(255, 122, 13);
 }
 
 /* Estilos para animações de entrada e saída */
 .area-sing-in.ativo,
 .recuperar-senha.ativo,
 .area-sing-up.ativo {
-    display: block !important;
-    animation: show 0.5s forwards;
+  display: block !important;
+  animation: show 0.5s forwards;
 }
 
 @keyframes show {
-    from {
-        opacity: 0;
-        transform: translate3d(-30px, 0, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 /* Estilos para telas menores (smartphones) */
 @media screen and (max-width: 768px) {
-    .area-access {
-        flex-direction: column;
-        height: auto;
-        width: 90%;
-    }
+  .area-access {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
 
-    .form-group {
-        width: 250px;
-    }
+  .form-group {
+    width: 250px;
+  }
 
-    .area-sing-in span {
-        width: 200px;
-    }
+  .area-sing-in span {
+    width: 200px;
+  }
 
-    .area-access-col1 {
-        width: 100%;
-        height: auto;
-        border-radius: 15px 15px 0px 0px;
-    }
+  .area-access-col1 {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0px 0px;
+  }
 
-    .text-hello {
-        text-align: center;
-    }
+  .text-hello {
+    text-align: center;
+  }
 
-    .area-access-col1 img {
-        width: 200px;
-    }
+  .area-access-col1 img {
+    width: 200px;
+  }
 
-    .area-access-col2 {
-        width: 100%;
-        min-height: 300px;
-        border-radius: 0 0 15px 15px;
-    }
+  .area-access-col2 {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 0 0 15px 15px;
+  }
 
-    .btn-cadastro,
-    .btn-recuperar-senha,
-    .btn-login {
-        flex-direction: column;
-    }
+  .btn-cadastro,
+  .btn-recuperar-senha,
+  .btn-login {
+    flex-direction: column;
+  }
 
-    .btn-cadastro button,
-    .btn-recuperar-senha button,
-    .btn-login button {
-        width: 80%;
-    }
+  .btn-cadastro button,
+  .btn-recuperar-senha button,
+  .btn-login button {
+    width: 80%;
+  }
 }
